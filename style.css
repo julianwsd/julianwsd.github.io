@@ -2,22 +2,56 @@ body {
   font-family: system-ui, sans-serif;
   margin: 0;
   padding: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+header {
+  background: #1a1a1a;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: #aaa;
+  text-decoration: none;
+}
+nav a:hover {
+  color: white;
 }
 main {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
+.project {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid #007acc;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
 .project img {
   width: 200px;
   height: 150px;
   object-fit: cover;
-}
-main img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 6px;
+  border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  flex-shrink: 0;
+}
+.project a {
+  text-decoration: none;
+  color: inherit;
+}
+.project h3 {
+  margin: 0.2rem 0;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
 }
