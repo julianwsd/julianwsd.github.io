@@ -25,6 +25,9 @@ main {
   padding: 0 1rem;
 }
 .project {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
   background: white;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -37,7 +40,7 @@ main {
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  margin-bottom: 0.5rem;
+  flex-shrink: 0;
 }
 .project a {
   text-decoration: none;
