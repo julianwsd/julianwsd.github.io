@@ -176,6 +176,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "a6632a5bf6df0b51",
-  "lastOpenFiles": []
+  "active": "994929c87e6815f6",
+  "lastOpenFiles": [
+    "index.md",
+    "_config.yml"
+  ]
 }
