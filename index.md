@@ -1,6 +1,6 @@
 
 # Julian San Diego
-[Email](mailto:julianwsd@gmail.com) | [View My Detailed Projects Page](./projects.md)
+[Email](mailto:julianwsd@gmail.com) | [View My Detailed Projects Page](./Projects.md)
 
 # Julian San Diego
 [juliansd@gmail.com](mailto:juliansd@gmail.com) | (510) 220-4704 | Berkeley, CA  
