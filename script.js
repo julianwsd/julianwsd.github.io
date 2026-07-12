@@ -1,1 +1,0 @@
-console.log("Welcome to Julian's project site!");
