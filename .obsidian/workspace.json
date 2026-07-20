@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Projects"
+              "title": "index"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Projects"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Projects"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Projects"
+              "title": "Outline of index"
             }
           }
         ]
@@ -201,8 +201,24 @@
   },
   "active": "18ee82d4340f16ef",
   "lastOpenFiles": [
+    "Portfolio.md",
+    "Resume.md",
     "index.md",
-    "Projects.md",
+    "Markdown Portfolio.md",
+    "Supporting_Files/Transient_Comparison_200V_150V_100W_150W.png",
+    "Supporting_Files/Scope_Shot.png",
+    "Supporting_Files/Schematic.png",
+    "Supporting_Files/Power_Stage_Layout.png",
+    "Supporting_Files/PLECS_Block_Diagram.png",
+    "Supporting_Files/Physical_Shot.jpeg",
+    "Supporting_Files/PCB_Layout.png",
+    "Supporting_Files/Mustapha_Board.png",
+    "Supporting_Files/Modeled_loss_Pie_Chart.png",
+    "Supporting_Files/20-100o.png",
+    "Supporting_Files/113_Final_Report_revised.pdf",
+    "Supporting_Files",
+    "Images",
+    "untitled folder",
     "_config.yml"
   ]
 }
