@@ -1,5 +1,5 @@
 # JULIAN SAN DIEGO
-**Electrical Engineering & Computer Sciences | University of California, Berkeley**  
+**Electrical Engineering & Computer Sciences | University of California, Berkeley**   
 julianwsd@gmail.com | [LinkedIn](https://www.linkedin.com/in/juliansandiego/) | [GitHub Pages](https://julianwsd.github.io/)
 
 ---

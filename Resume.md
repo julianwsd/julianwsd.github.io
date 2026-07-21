@@ -7,7 +7,7 @@ title: Core Engineering Projects
 # Julian San Diego
 
 Berkeley, CA ∣ (510) 220-4704 ∣ [julianwsd@gmail.com](https://www.google.com/search?q=mailto%3Ajulianwsd%40gmail.com) ∣ [linkedin.com/in/juliansandiego](https://linkedin.com/in/juliansandiego) ∣ [julianwsd.github.io](https://julianwsd.github.io/)
-
+ 
 ## Education
 
 **University of California, Berkeley** | Graduation: Dec 2026
