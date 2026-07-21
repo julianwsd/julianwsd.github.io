@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portfolio.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "portfolio"
+              "title": "index"
             }
           }
         ],
@@ -199,10 +199,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18ee82d4340f16ef",
+  "active": "994929c87e6815f6",
   "lastOpenFiles": [
-    "index.md",
+    "assets/ccs/style.scss",
+    "assets/ccs",
+    "assets/Untitled",
+    "assets",
     "portfolio.md",
+    "index.md",
     "resume.md",
     "Markdown Portfolio.md",
     "Supporting_Files/Transient_Comparison_200V_150V_100W_150W.png",

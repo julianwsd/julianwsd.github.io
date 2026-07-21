@@ -1,0 +1,15 @@
+---
+---
+
+/* 1. Pull in all the default theme styling */
+@import "{{ site.theme }}";
+
+/* 2. Add your custom width tweaks below */
+div.wrapper {
+  max-width: 1200px !important;
+}
+
+section {
+  max-width: 900px !important;
+  width: 100% !important;
+}
