@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Core Engineering Projects
+title: Resume
+permalink: /resume/
 ---
-[← Back to Main Page](./)
 
 # Julian San Diego
 
