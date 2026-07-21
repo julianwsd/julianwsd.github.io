@@ -1,9 +1,17 @@
 <header class="site-header">
-  {% if page.url == "/" %}
-  <h1 class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></h1>
-  {% else %}
-  <p class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></p>
-  {% endif %}
+  <div class="site-branding">
+    {% if page.url == "/" %}
+      <h1 class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></h1>
+    {% else %}
+      <p class="site-title"><a class="logo-text" href="{{ site.baseurl }}/">{{site.title}}</a></p>
+    {% endif %}
+    
+    <!-- Email Subtitle -->
+    <p class="site-email">
+      <a href="mailto:julianwsd@berkeley.edu">julianwsd@berkeley.edu</a>
+    </p>
+  </div>
+
   <nav class="site-navigation">
     <div class="site-navigation-wrap">
       <h2 class="screen-reader-text">Main navigation</h2>
@@ -18,15 +26,12 @@
         </li>
         {% endfor %}
 
-        <!-- Plain Text External Links -->
+        <!-- Social Links in Menu -->
         <li class="menu-item">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://github.com/julianwsd" target="_blank" rel="noopener">GitHub</a>
         </li>
         <li class="menu-item">
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
-        </li>
-        <li class="menu-item">
-          <a href="mailto:your-email@berkeley.edu">Email</a>
+          <a href="https://linkedin.com/in/juliansandiego" target="_blank" rel="noopener">LinkedIn</a>
         </li>
       </ul><!-- .menu -->
       <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
