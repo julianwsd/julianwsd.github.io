@@ -1,11 +1,12 @@
 
-title: Julian San Diego Portfolio
-description: EE / EECS Undergraduate Researcher at UC Berkeley
+title: Julian San Diego
+description: EE/EECS Undergraduate Researcher at UC Berkeley
 
 navigation:
   - text: "Home"
     url: "/"
-  - text: "About"
-    url: "/about/"
   - text: "Projects"
-    url: "/projects/"
+    url: "/portfolio/"
+  - text: "Resume"
+    url: "/resume/"
+  
