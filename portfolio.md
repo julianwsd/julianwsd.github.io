@@ -4,7 +4,7 @@ julianwsd@gmail.com | [LinkedIn](https://www.linkedin.com/in/juliansandiego/) | 
 
 ---
 
-![Header PCB Hardware Setup](Supporting_Files/Physical_Shot.JPEG)
+![Header PCB Hardware Setup](./Supporting_Files/Physical_Shot.JPEG)
 
 ## 100W Synchronous Buck Converter with Digital Control
 
@@ -32,7 +32,7 @@ This synchronous buck converter interfaces a variable photovoltaic (PV) module w
 ### Analytical Loss Modeling
 To predict thermal performance and guide component selection, an iterative conduction and switching loss model was developed.
 
-![Figure 2: Analytical Loss Distribution Chart](Supporting_Files/Modeled_loss_Pie_Chart.PNG)  
+![Figure 2: Analytical Loss Distribution Chart](./Supporting_Files/Modeled_loss_Pie_Chart.PNG)  
 *Figure 2: Analytical loss distribution at nominal 100W output*
 
 * **S1 Conduction:** 728.3 mW (30.6%)
@@ -51,7 +51,7 @@ To predict thermal performance and guide component selection, an iterative condu
 ### PCB Layout & Parasitic Mitigation
 High-frequency switching nodes require strict loop area minimization to mitigate voltage overshoot and electromagnetic interference (EMI). The board was realized on a 4-layer stackup using Altium Designer.
 
-![Figure 3: Top Layer Copper Routing|525](Supporting_Files/Power_Stage_Layout.PNG)  
+![Figure 3: Top Layer Copper Routing|525](./Supporting_Files/Power_Stage_Layout.PNG)  
 *Figure 3: Top layer copper routing showing the minimized critical commutation loop*
 
 * **Commutation Loop:** Placed high-frequency ceramic decoupling capacitors in ultra-close proximity to the MOSFETs via heavy top-layer copper pours. This tightly constricts the primary switching loop, providing the shortest path for high-frequency current commutation to suppress voltage spikes.
@@ -80,7 +80,7 @@ Closed-loop control of piezoelectric-based DC-DC converters is still in the earl
 
 This work aims to dramatically improve the transient response of existing closed-loop control methods by supplementing the baseline feedback loop with a dynamic feedforward bias that can be calculated in real time on a microcontroller.
 
-![Figure 1: PLECS System Architecture Diagram](Supporting_Files/PLECS_Block_Diagram.PNG)  
+![Figure 1: PLECS System Architecture Diagram](./Supporting_Files/PLECS_Block_Diagram.PNG)  
 *Figure 1: PLECS system architecture showing the analytical feedforward control block interacting with the feedback loops.*
 
 ---
@@ -88,7 +88,7 @@ This work aims to dramatically improve the transient response of existing closed
 ### Simulation Results & Transient Performance
 To evaluate the efficacy of the proposed feedforward framework, rigorous transient simulations were conducted against a legacy closed-loop baseline architecture. The system was subjected to aggressive step-load disturbances to benchmark settling time and voltage deviations.
 
-![Figure 2: Output Voltage Transient Plot](Supporting_Files/Transient_Comparison_200V_150V_100W_150W.PNG)  
+![Figure 2: Output Voltage Transient Plot](./Supporting_Files/Transient_Comparison_200V_150V_100W_150W.PNG)  
 *Figure 2: Transient simulation waveforms illustrating the output voltage recovery tracking of the proposed analytical feedforward control law versus the legacy baseline during a 50% step-load variation.*
 
 ---
@@ -96,5 +96,5 @@ To evaluate the efficacy of the proposed feedforward framework, rigorous transie
 ### Hardware & Firmware Implementation
 Hardware validation and active firmware development are executed utilizing a dedicated legacy piezoelectric hardware bench setup. The firmware realization leverages optimized execution blocks to map the calculated analytical timing parameters directly to high-resolution peripheral PWM modules on a TI C2000 microcontroller.
 
-![Figure 3: Legacy Piezoelectric Resonator Hardware Bench](Supporting_Files/Mustapha_Board.PNG)  
+![Figure 3: Legacy Piezoelectric Resonator Hardware Bench](./Supporting_Files/Mustapha_Board.PNG)  
 *Figure 3: Legacy Piezoelectric Resonator based power converter [Mustapha Touhami/BPEC]. This existing hardware platform serves as the experimental validation bench for the proposed real-time feedforward control law implementation.*
