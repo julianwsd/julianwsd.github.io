@@ -1,10 +1,9 @@
 ---
 ---
 
-/* 1. Pull in all the default theme styling */
-@import "{{ site.theme }}";
+/* Import the theme directly without Liquid variables */
+@import "jekyll-theme-minimal";
 
-/* 2. Add your custom width tweaks below */
 div.wrapper {
   max-width: 1200px !important;
 }
