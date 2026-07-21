@@ -2,7 +2,7 @@
 layout: default
 title: About Me
 ---
-
+![Portrait](./Supporting_Files/Portrait.png)
 # Hi, I'm Julian San Diego
 
 I am an Electrical Engineering & Computer Sciences undergraduate at UC Berkeley, focusing on **power electronics, analog circuit design, and hardware validation**. 
