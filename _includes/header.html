@@ -14,9 +14,20 @@
         {% assign current = 'nav-current' %}
         {% endif %}
         <li class="menu-item {{ current }}">
-          <a class="{{ current }}" href="{{ item.url }}">{{ item.text }}</a>
+          <a class="{{ current }}" href="{{ item.url | relative_url }}">{{ item.text }}</a>
         </li>
         {% endfor %}
+
+        <!-- Plain Text External Links -->
+        <li class="menu-item">
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        </li>
+        <li class="menu-item">
+          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+        </li>
+        <li class="menu-item">
+          <a href="mailto:your-email@berkeley.edu">Email</a>
+        </li>
       </ul><!-- .menu -->
       <button id="menu-close" class="menu-toggle"><span class="screen-reader-text">Close Menu</span><span
           class="icon-close" aria-hidden="true"></span></button>
