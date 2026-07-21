@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "portfolio.md",
+                "file": "resume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "portfolio"
+              "title": "resume"
             }
           }
         ],
@@ -201,6 +201,7 @@
   },
   "active": "18ee82d4340f16ef",
   "lastOpenFiles": [
+    "portfolio.md",
     "index.md",
     "404.md",
     "feed.xml",
@@ -224,7 +225,6 @@
     "_sass/_reset.scss",
     "_sass/_icons.scss",
     "_sass/_posts-navigation.scss",
-    "portfolio.md",
     "resume.md",
     "Markdown Portfolio.md"
   ]
