@@ -11,4 +11,4 @@ Currently, I work as an undergraduate researcher at the **Berkeley Power and Ene
 
 When I'm not in the lab winding custom magnetics or analyzing Bode plots, you can usually find me bouldering or building custom analog guitar pedal circuits. 
 
-[View My Portfolio](/portfolio) | [Read My Resume](/resume)
+[View My Portfolio](portfolio.md) | [Read My Resume](resume.md)

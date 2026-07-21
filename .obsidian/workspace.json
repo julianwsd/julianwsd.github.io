@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "resume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "resume"
             }
           }
         ],
@@ -201,9 +201,9 @@
   },
   "active": "18ee82d4340f16ef",
   "lastOpenFiles": [
-    "Portfolio.md",
-    "Resume.md",
+    "portfolio.md",
     "index.md",
+    "resume.md",
     "Markdown Portfolio.md",
     "Supporting_Files/Transient_Comparison_200V_150V_100W_150W.png",
     "Supporting_Files/Scope_Shot.png",
