@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resume.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resume"
+              "title": "index"
             }
           }
         ],
@@ -201,8 +201,13 @@
   },
   "active": "18ee82d4340f16ef",
   "lastOpenFiles": [
+    "origami.md",
     "portfolio.md",
     "index.md",
+    "resume.md",
+    "origami/grasshopper.jpeg",
+    "origami",
+    "untitled folder",
     "404.md",
     "feed.xml",
     "tags.md",
@@ -216,16 +221,12 @@
     "images/favicon.png",
     "images/desk.jpg",
     "images/design.jpg",
-    "images/author.png",
     "images",
     "_sass/_structure.scss",
     "_sass/_site-header.scss",
     "_sass/_site-footer.scss",
     "_sass/_prism.scss",
     "_sass/_reset.scss",
-    "_sass/_icons.scss",
-    "_sass/_posts-navigation.scss",
-    "resume.md",
     "Markdown Portfolio.md"
   ]
 }
