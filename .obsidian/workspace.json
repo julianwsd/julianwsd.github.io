@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "origami.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "origami"
             }
           }
         ],
@@ -201,9 +201,9 @@
   },
   "active": "18ee82d4340f16ef",
   "lastOpenFiles": [
+    "index.md",
     "origami.md",
     "portfolio.md",
-    "index.md",
     "resume.md",
     "origami/grasshopper.jpeg",
     "origami",
