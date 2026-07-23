@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Origami
 
 ![Lang Grasshopper](./origami/grasshopper.jpeg)
